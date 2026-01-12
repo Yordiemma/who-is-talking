@@ -1,3 +1,25 @@
+:root {
+    /* Background */
+    --sky-blue: #EAF6FF;
+    --grass-green: #E8F5E9;
+
+    /* Characters */
+    --turtle-green: #7BC47F;
+    --snail-peach: #F6C1A2;
+    --horse-brown: #D8A15D;
+
+    /* UI */
+    --card-white: #FFFFFF;
+    --shadow-soft: rgba(0, 0, 0, 0.08);
+
+    /* Accent */
+    --star-yellow: #FFD966;
+
+    /* Text */
+    --text-dark: #3A3A3A;
+}
+
+
 body {
     margin: 0;
 }
