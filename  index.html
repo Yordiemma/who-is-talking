@@ -2,11 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Who is taking</title>
-    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Who Is Talking?</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="app"></div>
-    <script src="/script.js"></script>
+    <div id="app">
+      <h1 class="title">Who Is Talking?</h1>
+
+      <div class="characters">
+        <img src="assets/images/turtle.png" data-animal="turtle" />
+        <img src="assets/images/tiger.png" data-animal="tiger" />
+      </div>
+
+      <div class="controls">
+        <button id="playBtn" class="play-button">▶️ Play</button>
+      </div>
+    </div>
+
+    <audio id="voice"></audio>
+
+    <script src="script.js"></script>
   </body>
 </html>
